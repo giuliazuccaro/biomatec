@@ -260,15 +260,16 @@ text-transform: uppercase;">Email</label>
                         <li> <a href="corpo.php"> Corpo </a> </li>
                         <li> <a href="viso.php"> Viso </a> </li>
                          <li> <a href="speciale_ottobre.php"> Speciale Ottobre </a> </li>
+                        <li> <a href="concorso.php"> Concorso </a> </li>
                          <li> <a href="about_us.php"> About Us </a> </li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6">
-                    <h3>Online Shop</h3>
+                    <h3>Shop</h3>
             <ul class="list">
-            <li><a href="#">Carrello</a></li>
-            <li><a href="#">Wishlist</a></li>
-            <li><a href="#">Il mio account</a></li>
+            <li><a href="punti_vendita.php">Punti vendita</a></li>
+            <li>Eshop coming soon...</li>
+           
            
             
             </ul>
@@ -278,9 +279,69 @@ text-transform: uppercase;">Email</label>
             <ul class="list">
             <li><a href="#">Metodi di Pagamento</a></li>
             <li><a href="#">Spedizioni e Reso</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+             <li><a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy Policy</a></li>
              <li><a href="#">Contattaci</a></li>
            
+                
+          <div class="modal fade" id="exampleModalLong" tabindex="1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Privacy Policy - BIO MATEC</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      Dichiarazione sul trattamento dati personali e consenso all’uso dei dati presso www.biomatec.com.
+          <br>
+
+La tutela dei dati personali è una questione di fiducia e la vostra fiducia per noi conta. Affinché vi sentiate a vostro agio sulle nostre pagine web, nell’elaborazione dei vostri dati personali ci atteniamo rigorosamente alle prescrizioni di legge. In questa sede vi vogliamo informare riguardo il rilevamento dati e l’uso dei dati da parte nostra. La seguente dichiarazione sul trattamento dei dati personali vi spiega quali dati vengono rilevati dalle mostre pagine web e quali dati elaboriamo e utilizziamo in che modo. Inoltre indichiamo a chi potete rivolgere le vostre domande in merito.
+<br>
+1. Sede responsabile e diritti dell’interessato<br>
+La sede responsabile del rilevamento, elaborazione e utilizzo dei vostri dati personali ai sensi della legge federale sulla tutela dei dati è BIO MATEC. Quale sede responsabile BIO MATEC è reperibile per voi tramite i seguenti dati di contatto:
+<br>
+- Recapito postale: BIO MATEC, Tamara-Danz-Str. 1, 10243 Berlin
+- Telefax: +49 (0)30 2759 46 93
+- Email: servizioclienti@biomatec.it
+<br>
+Potete ottenere informazioni sui vostri dati memorizzati presso di noi in qualsiasi momento e gratuitamente, come anche esercitare il vostro diritto di correzione, bloccaggio o cancellazione dei vostri dati. A tale scopo vi preghiamo di rivolgervi ai dati di contatto indicati sopra.
+<br>
+2.1 Conto cliente <br>
+ Per ogni cliente che procede alla sua registrazione tramite la funzione “Registrarsi ora”, creiamo un conto cliente, vale adire un accesso diretto protetto da password sui suoi dati anagrafici presso di noi memorizzati. Qui potete vedere, tra l’altro, i dati dei vostri ordini evasi, in corso e spediti recentemente, come anche amministrare i vostri dati personali e la newsletter.
+          <br>
+3. Trasmissione sicura dei dati<br>
+Da noi i vostri dati personali vengono trasmessi in modo sicuro tramite crittografazione. Naturalmente ciò vale anche per la vostra ordinazione e il login cliente. Impieghiamo il sistema di codifica TLS (Transport Layer Security) ovvero SSL (Secure Socket Layer).
+
+Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di ordine tecnico conto la perdita, distruzione, accesso, manomissione o diffusione dei vostri dati da parte di persone non autorizzate.  
+<br>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Ho capito!</button>
+        
+    </div>
+  </div>
+</div>             
+                
+                </div>              
+                
+                
+<script>
+    $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus() 
+  
+})      
+                
+</script>              
+                       
+                
+                
+                
+                
+                
+                
             
             </ul>
                 </div>
@@ -309,15 +370,8 @@ text-transform: uppercase;">Email</label>
         
     <div class="footer-bottom">
         <div class="container">
-            <p class="pull-left"> Copyright © Footer 2014. All right reserved. </p>
-            <div class="pull-right">
-                <ul class="nav nav-pills payments">
-                    <li><i class="fa fa-cc-visa"></i></li>
-                    <li><i class="fa fa-cc-mastercard"></i></li>
-                    <li><i class="fa fa-cc-amex"></i></li>
-                    <li><i class="fa fa-cc-paypal"></i></li>
-                </ul> 
-            </div>
+            <p class="pull-left"> Design by Ilaria Del Boca e Giulia Zuccaro - 2017</p>
+            
         </div>
     </div>
         

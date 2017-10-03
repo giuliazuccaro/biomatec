@@ -4,7 +4,7 @@
 <html lang="it">
 <head>
 	<meta charset="UTF-8">
-	<title>Concorso | BM</title>
+	<title>Vendita | BM</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -16,7 +16,6 @@
      <script type="text/javascript" src="js/form.js"></script> 
 </head>
 <body data-spy="scroll" data-target="#navbar-example">
-
 
 
 
@@ -91,96 +90,35 @@
 </nav>
 
 
+
 	<div class="container">
 	<div class="row">
-	<div class="text-center" style="margin-top:20%;"><h1 id="titoli" class="text-black sanelma fontx8 no-margin">CONCORSO</h1></div>
+	<div class="text-center" style="padding-top:20%;"><h1 id="titoli" class="text-black sanelma fontx8 no-margin">PUNTI VENDITA</h1></div>
 	
-         <h4 style="font-style: oblique;" class="text-center">Partecipa e Vinci</h4>
+         <h4 style="font-style: oblique;" class="text-center">Ecco dove puoi acquistare i prodotti BIO MATEC</h4>
         <hr>
      
         <br>
-	
-     
-      
-      
-        <br>
-        <div class="col-sm-4 col-xs-12"><h3>Cosa potresti vincere? </h3><h4>Trascina il cursore sopra le scatole!</h4></div>
-        
-        <div class="col-sm-8 col-xs-12"><a href="#"><img src="img/box_concorso.jpg" id="box" style="width:90%;" onmouseover='this.src="img/box_premi.jpg";' onmouseout='this.src="img/box_concorso.jpg";'></a></div>
-    
        
-
-            
-   
+        <div class="row">
+        <div class="col-md-6 col-xs-12">
+        <h4>IperSoap</h4>
+        <h5>Corso San Maurizio - Torino</h5>
+        <iframe class="mappa"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.7768529853747!2d7.6920454151157065!3d45.07003757909835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d7cecce7667%3A0x217ee658bac2432d!2sIpersoap!5e0!3m2!1sit!2sit!4v1507042232595" width="60%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        <div class="col-md-6 col-xs-12">
+        <h4>Melissa Erboristeria</h4>
+        <h5>Via Gaudenzio Ferrari 4 - Torino</h5>
+<iframe class="mappa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.798781479775!2d7.690027715115645!3d45.0695927790982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d7b5db9d4ef%3A0x2ce20e68d0c376b7!2sMelissa+Torino!5e0!3m2!1sit!2sit!4v1507042442202" width="60%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>    
         </div>
+        </div>
+     
         
-    </div>
-  
-    
-    
-    
-    
-<br>
-    <br>
-    <hr>
-    <div class="text-center"><h3>Cosa c'è dentro ogni kit?</h3><h4>Clicca sopra ognuno di essi per scoprirlo!</h4>
-<br>    
- 	<div class="container" style="background-color:grey;">
-	<div class="row">   
-      <br>
-<div class="col-sm-4 col-xs-12" style="text-align:center;"><button id="kit1" style="width:150px; height:80px; font-size:19px; background-color:#afcaab;">Kit "Capelli"</button>
-    <br><br>
-<p id="kit_capelli" style="display: none; font-size:19px; color:#afcaab">Shampoo Nutriente, Balsamo Fortificante e Olio di Argan</p>
-    <button class="hids" style="margin-bottom:12%;">&#9650</button>
- </div>
-<script>
-$( "#kit1" ).click(function() {
-  $( "#kit_capelli" ).show( "slow" );
-});
-    $( ".hids" ).click(function() {
-  $( "#kit_capelli" ).hide( 1000 );
-});
-</script>
+        </div>      
         
-        
-        
-<div class="col-sm-4 col-xs-12" style="text-align:center;"><button id="kit2" style="width:150px; height:80px; font-size:19px; background-color:#faf9cf;">Kit "Corpo"</button>
-    <br><br>
-<p id="kit_corpo" style="display: none; font-size:19px; color:#faf9cf;">Crema Corpo, Scrub Purificante e Gel Doccia</p>
-     <button class="hids" style="margin-bottom:12%;">&#9650</button>
- </div>
-<script>
-$( "#kit2" ).click(function() {
-  $( "#kit_corpo" ).show( "slow" );
-});
-     $( ".hids" ).click(function() {
-  $( "#kit_corpo" ).hide( 1000 );
-});
-</script>  
-        
-        
-<div class="col-sm-4 col-xs-12" style="text-align:center;"><button id="kit3" style="width:150px; height:80px; font-size:19px; background-color:#fce2cf;">Kit "Viso"</button>
-    <br><br>
-<p id="kit_viso" style="display: none; font-size:19px; color:#fce2cf">Crema Viso Notte, Burrocacao e Acqua Micellare</p>
-     <button class="hids" style="margin-bottom:12%;">&#9650</button>
-  
- </div>
-<script>
-$( "#kit3" ).click(function() {
-  $( "#kit_viso" ).show( "slow" );
-});
-     $( ".hids" ).click(function() {
-  $( "#kit_viso" ).hide( 1000 );
-});
-</script>  
-
-        </div>     
+    <br><br><br>    
     
-  </div><!-- / container -->
-      
-    </div>
-    
-
    <div class="home-newsletter"> 
        <h2 style="font-size: 22px; color: white; text-transform: uppercase; text-align:center;">Iscriviti alla newsletter Bio Matec</h2>
        <br><br><br>
@@ -224,7 +162,7 @@ text-transform: uppercase;">Email</label>
     
     
     
-   <footer>
+     <footer>
        
  
     <div class="footer" id="footer">
@@ -370,7 +308,7 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
     
 
 
- 
+
 
 
 </body>

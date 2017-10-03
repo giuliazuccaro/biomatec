@@ -25,26 +25,7 @@ h3 {font-size: 1.5em;}
 
 
 
-#img_prodotto {width: 70%;
-            height: 70%;
-   margin-left: 15%;
-    margin-top: 18%;
-       }
 
-#descrizione_prodotto {font-size: 1.1em;
-                padding: 8.5%;
-              
-        background-color: #faf9cf;}
-
-#prezzo {font-size: 1.3em;}
-
-.btn-success {background-color: #a1c838;
-                border-color: transparent;
-
-}
-
-.btn-success: hover {background-color: #bebebe;
-                border-color:transparent;}
 
 
 
@@ -238,6 +219,7 @@ padding: 1px;
 
 
 
+
 @media screen and (max-width:768px) {
     #carousel-example-generic {display: none;}
     .speciale_ottobre {padding-top: 30%;}
@@ -245,5 +227,8 @@ padding: 1px;
     #banner_speciale { padding-top:20%;}
     #titolo_categoria { padding-top:20%;}
     #titoli {padding-top: 20%;}
+    .mappa {margin-left:5%;
+            width: 200;
+            height:150;}
 }
 

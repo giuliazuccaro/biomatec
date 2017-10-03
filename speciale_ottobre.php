@@ -34,12 +34,7 @@
     
 <body data-spy="scroll" data-target="#navbar-example">
 
-  <?php  
-include "include/init.php"; 
-include "include/verifico_admin.php"; 
 
-
-?>  
    
   
  
@@ -121,25 +116,25 @@ include "include/verifico_admin.php";
 
 <div class="product-listing woocommerce clearfix columns-4">
    <ul class="flex-container">
-		  <li class="flex-item"><a href="acqua_micellare.html"><img class="lazy" data-original="img/acqua_micellare.jpg" width="200px" height="200px" alt="Acqua micellare">
+		  <li class="flex-item"><img class="lazy" data-original="img/acqua_micellare.jpg" width="200px" height="200px" alt="Acqua micellare">
 		  <h4>Acqua micellare</h4>
 		  <p>€16.00</p>
-		  </a>
+		
 		  </li>
-		  <li class="flex-item"><a href="olio_argan.html"><img class="lazy" data-original="img/olio_argan.jpg" width="200px" height="200px" alt="Olio argan">
+		  <li class="flex-item"><img class="lazy" data-original="img/olio_argan.jpg" width="200px" height="200px" alt="Olio argan">
 		  <h4>Olio di argan</h4>
 		  <p>€20.00</p>
-              </a>
+            
 		  </li>
-		  <li class="flex-item"><a href="balsamo_fortificante.html"><img class="lazy" data-original="img/balsamo_fortificante.jpg" width="200px" height="200px" alt="Balsamo fortificante">
+		  <li class="flex-item"><img class="lazy" data-original="img/balsamo_fortificante.jpg" width="200px" height="200px" alt="Balsamo fortificante">
               <h4>Balsamo fortificante</h4>
 		  <p>€17.00</p>
-		  </a>
+		
 		  </li>
-		  <li class="flex-item"><a href="crema_viso_notte.html"><img class="lazy" data-original="img/cremaviso_notte.jpg" width="200px" height="200px" alt="Crema viso notte">
+		  <li class="flex-item"><img class="lazy" data-original="img/cremaviso_notte.jpg" width="200px" height="200px" alt="Crema viso notte">
 		  <h4>Crema viso notte</h4>
 		  <p>€40.00</p>
-		  </a></li>
+		  </li>
 		</ul>
 	</div>
     </div>
@@ -189,7 +184,7 @@ text-transform: uppercase;">Email</label>
     
     
  
-    <footer>
+   <footer>
        
  
     <div class="footer" id="footer">
@@ -207,32 +202,30 @@ text-transform: uppercase;">Email</label>
                         <li> <a href="corpo.php"> Corpo </a> </li>
                         <li> <a href="viso.php"> Viso </a> </li>
                          <li> <a href="speciale_ottobre.php"> Speciale Ottobre </a> </li>
+                        <li> <a href="concorso.php"> Concorso </a> </li>
                          <li> <a href="about_us.php"> About Us </a> </li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6">
-                    <h3>Online Shop</h3>
+                    <h3>Shop</h3>
             <ul class="list">
-            <li><a href="#">Carrello</a></li>
-            <li><a href="#">Wishlist</a></li>
-            <li><a href="#">Il mio account</a></li>
+            <li><a href="punti_vendita.php">Punti vendita</a></li>
+            <li>Eshop coming soon...</li>
+           
            
             
             </ul>
                 </div>
-              <div class="col-md-3 col-sm-12 col-xs-12">
+                <div class="col-md-3 col-sm-12 col-xs-12">
             <h3>Servizio Clienti</h3>
             <ul class="list">
             <li><a href="#">Metodi di Pagamento</a></li>
             <li><a href="#">Spedizioni e Reso</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy Policy</a></li>
+             <li><a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy Policy</a></li>
              <li><a href="#">Contattaci</a></li>
            
-            
                 
-                
-                
-   <div class="modal fade" id="exampleModalLong" tabindex="1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal fade" id="exampleModalLong" tabindex="1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -284,7 +277,14 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
 })      
                 
 </script>              
+                       
                 
+                
+                
+                
+                
+                
+            
             </ul>
                 </div>
                 <div class="col-md-3 col-sm-12 col-xs-12">
@@ -292,8 +292,8 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
                     <h3> Seguici su...</h3>
                    
                     <ul class="social">
-                        <li> <a href="https://www.facebook.com"> <i class="fa fa-facebook">   </i> </a> </li>
-                        <li> <a href="https://www.instagram.com"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
                        
                       
                     </ul>
@@ -312,15 +312,8 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
         
     <div class="footer-bottom">
         <div class="container">
-            <p class="pull-left"> Copyright © Footer 2014. All right reserved. </p>
-            <div class="pull-right">
-                <ul class="nav nav-pills payments">
-                    <li><i class="fa fa-cc-visa"></i></li>
-                    <li><i class="fa fa-cc-mastercard"></i></li>
-                    <li><i class="fa fa-cc-amex"></i></li>
-                    <li><i class="fa fa-cc-paypal"></i></li>
-                </ul> 
-            </div>
+            <p class="pull-left"> Design by Ilaria Del Boca e Giulia Zuccaro - 2017</p>
+            
         </div>
     </div>
         
@@ -334,11 +327,6 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
         </div>
 </footer>
     
-   
-    
-    
-    
-    
     
 
 
@@ -347,13 +335,11 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
 
 </body>
 </html>
-  
-    
-    
-    
-    
-    
 
+    
+    
+    
+   
     
     
     

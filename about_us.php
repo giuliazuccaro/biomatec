@@ -13,6 +13,7 @@
    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+     <script type="text/javascript" src="js/form.js"></script> 
 </head>
 <body data-spy="scroll" data-target="#navbar-example">
 
@@ -331,15 +332,16 @@ text-transform: uppercase;">Email</label>
                         <li> <a href="corpo.php"> Corpo </a> </li>
                         <li> <a href="viso.php"> Viso </a> </li>
                          <li> <a href="speciale_ottobre.php"> Speciale Ottobre </a> </li>
+                        <li> <a href="concorso.php"> Concorso </a> </li>
                          <li> <a href="about_us.php"> About Us </a> </li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6">
-                    <h3>Online Shop</h3>
+                    <h3>Shop</h3>
             <ul class="list">
-            <li><a href="#">Carrello</a></li>
-            <li><a href="#">Wishlist</a></li>
-            <li><a href="#">Il mio account</a></li>
+            <li><a href="punti_vendita.php">Punti vendita</a></li>
+            <li>Eshop coming soon...</li>
+           
            
             
             </ul>
@@ -349,14 +351,11 @@ text-transform: uppercase;">Email</label>
             <ul class="list">
             <li><a href="#">Metodi di Pagamento</a></li>
             <li><a href="#">Spedizioni e Reso</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy Policy</a></li>
+             <li><a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy Policy</a></li>
              <li><a href="#">Contattaci</a></li>
            
-            
                 
-                
-                
-   <div class="modal fade" id="exampleModalLong" tabindex="1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal fade" id="exampleModalLong" tabindex="1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -408,7 +407,14 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
 })      
                 
 </script>              
+                       
                 
+                
+                
+                
+                
+                
+            
             </ul>
                 </div>
                 <div class="col-md-3 col-sm-12 col-xs-12">
@@ -416,8 +422,8 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
                     <h3> Seguici su...</h3>
                    
                     <ul class="social">
-                        <li> <a href="https://www.facebook.com"> <i class="fa fa-facebook">   </i> </a> </li>
-                        <li> <a href="https://www.instagram.com"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
                        
                       
                     </ul>
@@ -436,15 +442,8 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
         
     <div class="footer-bottom">
         <div class="container">
-            <p class="pull-left"> Copyright © Footer 2014. All right reserved. </p>
-            <div class="pull-right">
-                <ul class="nav nav-pills payments">
-                    <li><i class="fa fa-cc-visa"></i></li>
-                    <li><i class="fa fa-cc-mastercard"></i></li>
-                    <li><i class="fa fa-cc-amex"></i></li>
-                    <li><i class="fa fa-cc-paypal"></i></li>
-                </ul> 
-            </div>
+            <p class="pull-left"> Design by Ilaria Del Boca e Giulia Zuccaro - 2017</p>
+            
         </div>
     </div>
         
@@ -458,11 +457,6 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
         </div>
 </footer>
     
-   
-    
-    
-    
-    
     
 
 
@@ -471,12 +465,6 @@ Inoltre proteggiamo le nostre pagine WEB e altri sistemi per mezzo di misure di 
 
 </body>
 </html>
-  
-    
-    
-    
-    
-    
 
     
     
